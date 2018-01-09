@@ -1,24 +1,8 @@
--- CREATE TABLE drinks (
+-- CREATE TABLE users (
 --     id int NOT NULL AUTO_INCREMENT,
---     name VARCHAR(255),
---     description VARCHAR(255), 
---     price DOUBLE(40,2), 
---     PRIMARY KEY (id)
---     );
-
--- SELECT * FROM Vuetimans
-
--- SELECT * FROM Vuetimans WHERE id = 1 OR id = 2;
-
--- UPDATE Vuetimans SET  
---     description = 'A plain old Vuetiman!'
--- WHERE id = 2;
--- SELECT * FROM Vuetimans WHERE id = 2;
-
--- DROP TABLE drinks
-
-CREATE TABLE AutoAutos (
-id int NOT NULL AUTO_INCREMENT,
-brand varchar (255),
-PRIMARY KEY (id)
-);
+--     username VARCHAR(20) NOT NULL,
+--     email VARCHAR(255) NOT NULL,
+--     password VARCHAR(255) NOT NULL,
+--     PRIMARY KEY (id),
+--     UNIQUE KEY email (email)
+-- );
